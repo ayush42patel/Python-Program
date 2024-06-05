@@ -7,10 +7,29 @@ def exist(f):
         return True
 
 def writing(f):
-    print()
-
+    f=open("D:/File Handling Files/Marks.csv","w")
+    writer = csv.writer(f)
+    n = int(input('How many students: '))
+    writer.writerow(['Rollno', 'Name', 'Course', 'Semester', 'Math', 'English', 'Science', 'SST', 'Comp', 'Hindi'])
+    for i in range(n):
+        print(f"Student record {i+1}")
+        Rollno=int(input("Enter Rollno:"))
+        Name=str(input("Enter Name:"))
+        course=str(input("Enter Course:"))
+        semester=int(input("Enter Semester:"))
+        math=int(input("Enter Math Marks:"))
+        english=int(input("Enter English marks:"))
+        science = int(input('Enter Science marks: '))
+        sst = int(input('Enter SST marks: '))
+        comp = int(input('Enter Comp marks: '))
+        hindi = int(input('Enter Hindi marks: '))
+        writer.writerow([Rollno, Name, course, semester, math, english, science, sst, comp, hindi])
+    f.close()
+    print("data added to csv")
+        
 def reading(f):
-    print()
+    f=open("D:/File Handling Files/Marks.csv","r")
+    
 
 def appending(f):
     print()
