@@ -1,10 +1,5 @@
-import time
-print("Start Execution : ",end="")
-print(time.ctime())
 x=eval(input("Enter a list:"))
 y=sorted(x,reverse=False)
 z=sorted(x,reverse=True)
 print("Ascending order:",y)
 print("Descending order:",z)
-print("Stop Execution : ",end="")
-print(time.ctime())

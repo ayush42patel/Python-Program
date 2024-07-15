@@ -1,6 +1,3 @@
-import time
-print("Start Execution : ",end="")
-print(time.ctime())
 print('''
 |~~~~~~~~~~~~~~~~~~~~~~~MENU OF BINARY FILES~~~~~~~~~~~~~~~~~~~~~~~~|
 |                                                                   |
@@ -166,5 +163,3 @@ elif x==4:
     except EOFError:
         f.close()
     x=x+1
-print("Stop Execution : ",end="")
-print(time.ctime())

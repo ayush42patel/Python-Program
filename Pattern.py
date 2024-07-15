@@ -1,45 +1,38 @@
-import time
-print("Start Execution : ",end="")
-print(time.ctime())
 print('''
-|------------------------------------------------------MENU------------------------------------------------------|
-|                                                                                                                |
-|                            1.#Pattern 1(Simple triangle)                                                       |
-|                            2.#Pattern 2(Inverted Pyramid of numbers)                                           |
-|                            3.#Pattern 3(Half pyramid)                                                          |
-|                            4.#Pattern 4(Inverted pyramid of descending order)                                  |
-|                            5.#Pattern 5(Inverted Pyramid of same digit)                                        |
-|                            6.#Pattern 6(reverse pyramid of no)                                                 |  
-|                            7.#Pattern 7(Inverted half pyramid)                                                 |
-|                            8.#Pattern 8(Pyramid of natural no)                                                 |
-|                            9.#Pattern 9(Unique Pyramid Pattern of Digits)                                      |
-|                            10.#Pattern 10(Connected Inverted Pyramid Pattern of Numbers)                       |
-|                            11.#Pattern 11(Even Number Pyramid Pattern)                                         |
-|                            12.#Pattern 12(Pyramid of Horizontal Tables)                                        |
-|                            13.#Pattern 13(Pyramid Pattern of Alternate Numbers)                                |
-|                            14.#Pattern 14( Mirrored Pyramid (Right-angled Triangle) Pattern of Numbers)        |
-|                            15.#Pattern 15(Equilateral Triangle with Stars (Asterisk Symbol))                   |
-|                            16.#Pattern 16(Downward Triangle Pattern of Stars)                                  |
-|                            17.#Pattern 17(Pyramid Pattern of Stars)                                            |
-|                            18.#Pattern 18(Right Start Pattern Program)                                         |
-|                            19.#Pattern 19(Left Start Pattern Program)                                          |
-|                            20.#Pattern 20(Hourglass Pattern Program)                                           |
-|                            21.#Pattern 21(Left Half-Pyramid Pattern Program)                                   |
-|                            22.#Pattern 22(Downward Half-Pyramid Pattern Program)                               |
-|                            23.#Pattern 23(Diamond Shaped Pattern Program1)                                     |
-|                            24.#Pattern 24(Diamond Star Pattern Program2)                                       |
-|                            25.#Pattern 25(1,212)                                                               |
-|                            26.#Pattern 26(Half-Pyramid Pattern With Numbers)                                   |
-|                            27.#Pattern 27(Diamond Pattern With Numbers)                                        |
-|                            28.#Pattern 28(Descending Order Pattern Program)                                    |
-|                            29.#Pattern 29(Binary Numbers Pattern Program)                                      |
-|                            30.#Pattern 30(Right Alphabetical Triangle)                                         |
-|                            31.#Pattern 31(Square)                                                              |
-|                            32.#Pattern 32(Rectangle)                                                           |
-|                            33.#Pattern 33(Right alphabet)                                                      |
-|                            34.#Pattern 34(Hollow straight triangle)                                            |
-|                                                                                                                |
-|--------------------------------------------------THE END-------------------------------------------------------|
+1.#Pattern 1(Simple triangle)
+2.#Pattern 2(Inverted Pyramid of numbers)
+3.#Pattern 3(Half pyramid)
+4.#Pattern 4(Inverted pyramid of descending order)
+5.#Pattern 5(Inverted Pyramid of same digit)
+6.#Pattern 6(reverse pyramid of no)  
+7.#Pattern 7(Inverted half pyramid)
+8.#Pattern 8(Pyramid of natural no)
+9.#Pattern 9(Unique Pyramid Pattern of Digits)
+10.#Pattern 10(Connected Inverted Pyramid Pattern of Numbers)
+11.#Pattern 11(Even Number Pyramid Pattern)
+12.#Pattern 12(Pyramid of Horizontal Tables)
+13.#Pattern 13(Pyramid Pattern of Alternate Numbers)
+14.#Pattern 14( Mirrored Pyramid (Right-angled Triangle) Pattern of Numbers)
+15.#Pattern 15(Equilateral Triangle with Stars (Asterisk Symbol))
+16.#Pattern 16(Downward Triangle Pattern of Stars)
+17.#Pattern 17(Pyramid Pattern of Stars)
+18.#Pattern 18(Right Start Pattern Program)
+19.#Pattern 19(Left Start Pattern Program)
+20.#Pattern 20(Hourglass Pattern Program)
+21.#Pattern 21(Left Half-Pyramid Pattern Program)
+22.#Pattern 22(Downward Half-Pyramid Pattern Program)
+23.#Pattern 23(Diamond Shaped Pattern Program1)
+24.#Pattern 24(Diamond Star Pattern Program2)
+25.#Pattern 25(1,212)
+26.#Pattern 26(Half-Pyramid Pattern With Numbers)
+27.#Pattern 27(Diamond Pattern With Numbers)
+28.#Pattern 28(Descending Order Pattern Program)
+29.#Pattern 29(Binary Numbers Pattern Program)
+30.#Pattern 30(Right Alphabetical Triangle)
+31.#Pattern 31(Square)
+32.#Pattern 32(Rectangle)
+33.#Pattern 33(Right alphabet)
+34.#Pattern 34(Hollow straight triangle)|
 ''')
 j=int(input("Enter(1-34):"))
 if j==1:
@@ -395,6 +388,3 @@ elif j==34:
         print()
 else:
     print("Invalid choose from 1 to 34")
-    
-print("Stop Execution : ",end="")
-print(time.ctime())
