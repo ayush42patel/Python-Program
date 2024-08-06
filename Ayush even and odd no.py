@@ -1,6 +1,3 @@
-import time
-print("Start Execution : ",end="")
-print(time.ctime())
 y=int(input("Enter 1/2:"))
 x=int(input("Enter a no:"))
 if y==1:
@@ -12,5 +9,3 @@ elif y==2:
 else:
     for l in range(0,x):
         print("The Natural no till are:",l)
-print("Stop Execution : ",end="")
-print(time.ctime())

@@ -1,6 +1,3 @@
-import time
-print("Start Execution : ",end="")
-print(time.ctime())
 min=max=0
 sum=0
 n=int(input("Enter from where :"))
@@ -15,5 +12,3 @@ for i in range(n,k):
 print("sum:",sum)
 print("The greatest no is:",max)
 print("The smallest no is:",min)
-print("Stop Execution : ",end="")
-print(time.ctime())
